@@ -33,26 +33,26 @@
         <h1 class="text-center mb-3">Customer Details</h1>
         <div class="d-flex justify-content-around align-items-center bg-white mx-5 py-4 rounded-4">
             <h4 class="">You will get</h4>
-            <p class="text-danger pt-2 fs-3">$ <span class="total-amount">0</span></p>
+            <p class="text-danger pt-2 fs-3">$ <span id="total-amount">0</span></p>
         </div>
 
 
         <div class="mt-4 rounded-3  all-details-conatiner mx-auto d-flex flex-column justify-content-between p-2">
             <div class="d-flex justify-content-evenly align-items-center bg-white mt-2 py-2 rounded-2">
                 <img src="images/user.svg" alt="user image" />
-                <p  class="user-name pt-3 fs-4">Ankit</p>
+                <p  class=" pt-3 fs-4" id = "user-name">Ankit</p>
                <div class="d-flex flex-column justify-content-center align-items-center">
                  <p class="pt-3 text-danger d-inline m-0">$<span class=" ms-2 total-paid" id = "amount-paid">0</span></p>
                 <span class="text-black-50">You paid</span>
                 </div>
-                <input type="number" class= "edit-amount border border-0 hidden-item paid-amount"/>
-                <img src="images/edit.svg" alt="edit button" class = "edit-paid"/>
+                <input type="number" class= "edit-amount border border-0 hidden-item " id = "paid-amount"/>
+                <img src="images/edit.svg" alt="edit button" id = "edit-paid"/>
                 <div class="d-flex flex-column justify-content-center align-items-center">
                     <p class="pt-3 text-success d-inline m-0">$<span class=" ms-2 total-get" id = "amount-get">0</span></p>
                    <span class="text-black-50">You get</span>
                    </div>
-                <input type="number" class = "edit-amount border border-0 hidden-item get-amount" />
-                <img src="images/edit.svg" alt="edit button" class = "edit-get"/>
+                <input type="number" class = "edit-amount border border-0 hidden-item " id = "get-amount" />
+                <img src="images/edit.svg" alt="edit button" id = "edit-get"/>
             </div>
        <img src="./images/backward.svg" alt="All details" class="all-details-button  border border-1 mx-auto px-5 py-3 mt-2 bg-danger rounded-3 " id = "back-btn">
 

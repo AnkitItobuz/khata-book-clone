@@ -65,7 +65,7 @@ section {
   overflow: auto;
 }
 
-.edit-paid, .edit-get {
+.edit-paid, #edit-get {
   cursor: pointer;
 }
 
